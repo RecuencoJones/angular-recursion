@@ -1,12 +1,14 @@
 {
   "name": "angular-recursion",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An Angular service which helps with creating recursive directives.",
-  "main": "angular-recursion.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "angular": ">=1.2.0"
+  },
   "devDependencies": {
     "gulp": "^3.8.9",
     "gulp-karma": "0.0.1",
